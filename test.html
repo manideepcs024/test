@@ -1,0 +1,54 @@
+
+<!Doctype html>
+<html>
+
+ <head>
+     
+     <style type="text/css">
+#wrapper {
+    transition:height 1s ease-out;
+    height:0;
+    overflow:hidden;
+}
+
+.slideMeDown
+ {
+    font-size:24px;
+    background: #4679bd;
+    color:white;
+    width:50%;
+    height:200px;
+    padding:20px;
+}
+.addheight
+{
+    height: 240px;
+}
+     </style>
+
+ </head>
+
+<body>
+    
+    <button id="button">Click to slideDown!</button>
+<div id="wrapper" class="addheight">
+    <div class="slideMeDown">cool!</div>
+</div>
+</body>
+
+
+ <script type="text/javascript">
+     
+     alert("welcome");
+     document.getElementById("button").addEventListener("click", function () {
+     alert("welcome....");
+     // document.getElementById("wrapper").classList = "addheight";
+     document.getElementById("wrapper").className = "addheight";
+     document.getElementById("wrapper").style.height = "240px";
+
+});
+     </script>
+
+
+</html>
+

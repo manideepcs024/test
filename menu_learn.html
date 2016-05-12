@@ -1,0 +1,250 @@
+<!Doctype html>
+<html>
+  <head>
+
+
+<title>Welcome</title>
+<style type="text/css">
+
+ body {
+  font: 300 86% helvetica,arial,sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+header {
+  width: 980px;
+  height: 150px;
+  font-size: 3em;
+  line-height: 150px;
+  color: #222;
+  margin: 0 auto;
+}
+
+#wrapper {
+  width: 980px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+nav {
+  position: relative;
+  width: 980px;
+  height: 50px;
+  margin: 0 auto;
+  background: #8dc63f;
+}
+
+header, nav { 
+  display: block;
+}
+
+nav ul#menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+} 
+
+nav ul#menu li {
+  position: relative;
+  display: inline-block;
+}
+
+nav ul#menu li a {
+  display: block;
+  height: 50px;
+  font-size: 1em;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+nav ul#menu li a:hover, nav ul#menu li:hover > a {
+  background: #333;
+}
+
+nav ul#menu li:hover > #mega {
+  display: block;
+}
+
+#mega {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 920px;
+  height: auto;
+  padding: 20px 30px;
+  background: #333;
+  display: none;
+}
+
+ul#menu ul {
+  float: left;
+  width: 23%;
+  margin: 0 2% 15px 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul#menu ul li {
+  display: block;
+}
+
+ul#menu ul li a {
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 1.3em;
+  color: #888;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+ul#menu ul li:first-child a {
+  font-size: 1.2em;
+  color: #8dc63f;
+}
+
+ul#menu ul li a:hover {
+  color: #fff;
+  background: none;
+}
+
+ul#menu ul li:first-child a:hover {
+  color: #fff;
+}
+
+/* clearfix */
+nav ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+nav ul {
+  display: inline-block;
+} 
+
+html[xmlns] nav ul {
+  display: block;
+}
+ 
+* html nav ul {
+  height: 1%;
+}
+
+#content {
+  padding: 30px 0;
+}
+
+</style>
+  </head>
+<body>
+
+<!-- begin header -->
+<header>
+	CSS3 Mega Menu
+</header><!-- /header -->
+
+<!-- begin wrapper -->
+<div id="wrapper">
+
+	<!-- begin nav -->
+	<nav>
+		<ul id="menu">
+			<li><a href="#">Products</a>
+				<div id="mega">
+					<ul>
+						<li><a href="#">Computers</a></li>
+						<li><a href="#">Windows Desktop Computers</a></li>
+						<li><a href="#">iMacs</a></li>
+						<li><a href="#">Laptops &amp; Macbooks</a></li>
+						<li><a href="#">Monitors</a></li>
+						<li><a href="#">Software &amp; Accessories</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Home Theatre</a></li>
+						<li><a href="#">Plasma TVs</a></li>
+						<li><a href="#">LCD TVs</a></li>
+						<li><a href="#">LED TVs</a></li>
+						<li><a href="#">Portable TVs</a></li>
+						<li><a href="#">Accessories</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Home Appliances</a></li>
+						<li><a href="#">Vacuum Cleaners</a></li>
+						<li><a href="#">Kitchenware</a></li>
+						<li><a href="#">Lighting</a></li>
+						<li><a href="#">Air Conditioners</a></li>
+						<li><a href="#">Chamberpots</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Entertainment</a></li>
+						<li><a href="#">Movies</a></li>
+						<li><a href="#">DVD &amp; Blu-Ray Players</a></li>
+						<li><a href="#">CDs</a></li>
+						<li><a href="#">Home Stereos</a></li>
+						<li><a href="#">Etch-A-Sketches</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Home Furnishings</a></li>
+						<li><a href="#">Sofas &amp; Love Seats</a></li>
+						<li><a href="#">Reclining Chairs</a></li>
+						<li><a href="#">Lamps &am; Tables</a></li>
+						<li><a href="#">Dressers &amp; Armoires</a></li>
+						<li><a href="#">Flooring</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Office Furnishings</a></li>
+						<li><a href="#">Workspaces</a></li>
+						<li><a href="#">Tables</a></li>
+						<li><a href="#">Chairs</a></li>
+						<li><a href="#">Shelving &amp; Storage</a></li>
+						<li><a href="#">Lighting</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Women's Fashions</a></li>
+						<li><a href="#">Men's Wear</a></li>
+						<li><a href="#">Children's Wear</a></li>
+						<li><a href="#">Footwear</a></li>
+						<li><a href="#">Hats-A-Plenty!</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">The Avengers</a></li>
+						<li><a href="#">Tony "Iron Man" Stark</a></li>
+						<li><a href="#">Bruce "Hulk" Banner</a></li>
+						<li><a href="#">Steve Rogers (Captain America)</a></li>
+						<li><a href="#">Natasha Romanoff (Black Widow)</a></li>
+						<li><a href="#">Hawkeye, I guess</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Locations</a></li>
+			<li><a href="#">Our Team</a></li>
+			<li><a href="#">Testimonials</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">News &amp; Events</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+
+	</nav><!-- /nav -->
+
+	<div id="content">
+		<p>Page content...</p>
+	</div>
+	
+</div><!-- /wrapper -->
+
+
+
+
+
+</body>
+</html>
