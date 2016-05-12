@@ -17,6 +17,13 @@ hidden by default
   </div>
 
   </li>
+   <li class="flevel">
+<a href="#">hi</a>
+  <div class="snav" style="display:none;">
+hidden by default 
+  </div>
+
+  </li>
 
 
 </ul>
@@ -29,15 +36,36 @@ document.getElementsByClassName("flevel")[0].onclick=function(){showad()};
 console.log("inside function init");
 }
 function showad()
-{
-	if()
+{ 
+	for(var i=0; i<2;i++)
 	{
-		
+		console.log(i);
+		if(i==0){
+			if(document.getElementsByClassName("snav")[0].style.display=="block")
+	{
+console.log("blocked so hide")
+document.getElementsByClassName("snav")[0].style.display="none";
+	}else {
+		{
+			if(document.getElementsByClassName("snav")[0].style.display=="none")
+	{
+console.log("blocked so hide")
+document.getElementsByClassName("snav")[0].style.display="block";
 	}
-	document.getElementsByClassName("snav")[0].style.display="block";
+		}
+	}}
+	else {
+		
+
+		document.getElementsByClassName("snav")[1].style.display=="none"
+	}
+		}
+	}
+	
+	/*document.getElementsByClassName("snav")[0].style.display="block";*/
 console.log("inside function showad");
 
-}
+
 
 </script>
 
